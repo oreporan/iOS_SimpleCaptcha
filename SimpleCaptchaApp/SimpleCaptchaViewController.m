@@ -55,7 +55,7 @@ NSString *captchaMessage;
     [super viewWillDisappear:animated];
     if(self.isMovingFromParentViewController){
         //User pressed Back button. Cancel authentication
-        [self.challengeHandler submitFailure:nil];
+        [self.challengeHandler cancel];
     }
 }
 @end
