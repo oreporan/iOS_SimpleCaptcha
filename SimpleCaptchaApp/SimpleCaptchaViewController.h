@@ -11,7 +11,7 @@
 
 
 @interface SimpleCaptchaViewController : UIViewController
-@property WLChallengeHandler* challengeHandler;
+@property SecurityCheckChallengeHandler* challengeHandler;
 @property (weak, nonatomic) IBOutlet UITextField *answerTextField;
 @property (weak, nonatomic) IBOutlet UILabel *equationLabel;
 
