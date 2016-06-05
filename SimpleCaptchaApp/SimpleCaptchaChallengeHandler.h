@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 
-@interface SimpleCaptchaChallengeHandler : WLChallengeHandler
+@interface SimpleCaptchaChallengeHandler : SecurityCheckChallengeHandler
 @property ViewController* vc;
 
 -(id)initWithViewController: (ViewController*) vc;
